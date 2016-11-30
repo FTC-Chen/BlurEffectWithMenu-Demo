@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "guideView.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,42 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //更新增加,启动页,
+    //启动页的方式:1.创建VC,第一次进入到启动页VC;2.创建View,第一个加载View,之后隐藏,去掉
+    //写进东西的方式可以是1.NSUserDefaults  2.沙盒中创建一个plist文件
+    
+    //添加启动页面
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"everLogin"]) {
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"everLogin"];
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLogin"];
+    
+    }else{
+        
+        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"firstLogin"];
+    }
+    
+    
+    //如果是第一次登陆
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"firstLogin"]) {
+        
+        //添加启动页面
+        guideView *guide = [[guideView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+        
+        [self.window.rootViewController.view addSubview:guide];
+        
+        [UIView animateWithDuration:0.35 animations:^{
+            
+            guide.frame = CGRectMake(0, 0, kScreenWidth, kScreenHeight);
+            
+        }];
+
+    }
+    
+    
+    
     return YES;
 }
 

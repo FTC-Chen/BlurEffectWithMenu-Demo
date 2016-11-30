@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B14AD3A1DED88D90038AC03 /* 毛玻璃菜单.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B14AD391DED88D90038AC03 /* 毛玻璃菜单.gif */; };
+		7B14AD3D1DEE9ECF0038AC03 /* guideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B14AD3C1DEE9ECF0038AC03 /* guideView.m */; };
 		7B88DC391DED44D4008CC522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88DC381DED44D4008CC522 /* main.m */; };
 		7B88DC3C1DED44D4008CC522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88DC3B1DED44D4008CC522 /* AppDelegate.m */; };
 		7B88DC3F1DED44D4008CC522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88DC3E1DED44D4008CC522 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		7B14AD391DED88D90038AC03 /* 毛玻璃菜单.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "毛玻璃菜单.gif"; sourceTree = "<group>"; };
+		7B14AD3B1DEE9ECF0038AC03 /* guideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guideView.h; sourceTree = "<group>"; };
+		7B14AD3C1DEE9ECF0038AC03 /* guideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = guideView.m; sourceTree = "<group>"; };
 		7B88DC341DED44D4008CC522 /* BlurEffectWithMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurEffectWithMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88DC381DED44D4008CC522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B88DC3A1DED44D4008CC522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				7B88DC3E1DED44D4008CC522 /* ViewController.m */,
 				7B88DC6C1DED4ED1008CC522 /* BlurEffecViewController.h */,
 				7B88DC6D1DED4ED1008CC522 /* BlurEffecViewController.m */,
+				7B14AD3B1DEE9ECF0038AC03 /* guideView.h */,
+				7B14AD3C1DEE9ECF0038AC03 /* guideView.m */,
 				7B88DC401DED44D4008CC522 /* Main.storyboard */,
 				7B88DC431DED44D4008CC522 /* Assets.xcassets */,
 				7B88DC451DED44D4008CC522 /* LaunchScreen.storyboard */,
@@ -218,6 +223,7 @@
 				TargetAttributes = {
 					7B88DC331DED44D4008CC522 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2L98437J77;
 						ProvisioningStyle = Automatic;
 					};
 					7B88DC4C1DED44D4008CC522 = {
@@ -289,6 +295,7 @@
 				7B88DC3F1DED44D4008CC522 /* ViewController.m in Sources */,
 				7B88DC6E1DED4ED1008CC522 /* BlurEffecViewController.m in Sources */,
 				7B88DC3C1DED44D4008CC522 /* AppDelegate.m in Sources */,
+				7B14AD3D1DEE9ECF0038AC03 /* guideView.m in Sources */,
 				7B88DC391DED44D4008CC522 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,10 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2L98437J77;
 				INFOPLIST_FILE = BlurEffectWithMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.BlurEffectWithMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunac.RongYDLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -448,10 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2L98437J77;
 				INFOPLIST_FILE = BlurEffectWithMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.BlurEffectWithMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunac.RongYDLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
