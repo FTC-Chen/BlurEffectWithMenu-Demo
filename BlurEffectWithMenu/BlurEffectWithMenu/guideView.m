@@ -107,7 +107,7 @@
     //超过时隐藏/移除
     if (scrollView.contentOffset.x == (self.imageArr.count) *(kScreenWidth)) {
         
-        //进入相对应的界面,此处我写为返回
+        //进入相对应的界面,此处暂时写为返回
         self.hidden = YES;
             
         [self removeFromSuperview];
