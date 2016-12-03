@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,7 +14,7 @@
         <scene sceneID="HF2-sS-puT">
             <objects>
                 <navigationController id="yZ3-oB-cYa" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Prn-59-8jz">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Prn-59-8jz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,13 +41,49 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teO-iV-7th">
+                                <rect key="frame" x="26" y="131" width="130" height="38"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="PfS-dj-rgc"/>
+                                    <constraint firstAttribute="width" constant="130" id="pZb-2e-gMU"/>
+                                </constraints>
+                                <state key="normal" title="TestMBHudButton">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testHudAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3W-hz-M73"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85i-Uf-Pjr">
+                                <rect key="frame" x="219" y="131" width="130" height="38"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="40V-Do-300"/>
+                                    <constraint firstAttribute="width" constant="130" id="brQ-8K-6AW"/>
+                                </constraints>
+                                <state key="normal" title="TestSVHudButton">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testSVHUDAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LpB-XR-Hdf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="85i-Uf-Pjr" secondAttribute="trailing" constant="10" id="5XA-e1-6Qh"/>
+                            <constraint firstItem="teO-iV-7th" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="S5S-e7-m49"/>
+                            <constraint firstItem="teO-iV-7th" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="U64-0e-thM"/>
+                            <constraint firstItem="85i-Uf-Pjr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="wPn-Be-2wu"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="导航栏" id="fJk-4o-xtn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-593" y="179"/>
+            <point key="canvasLocation" x="-594.39999999999998" y="178.56071964017991"/>
         </scene>
     </scenes>
 </document>

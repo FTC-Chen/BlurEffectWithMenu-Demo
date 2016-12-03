@@ -19,6 +19,17 @@
 		7B88DC5D1DED44D4008CC522 /* BlurEffectWithMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88DC5C1DED44D4008CC522 /* BlurEffectWithMenuUITests.m */; };
 		7B88DC6B1DED48E4008CC522 /* add2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B88DC6A1DED48E4008CC522 /* add2.png */; };
 		7B88DC6E1DED4ED1008CC522 /* BlurEffecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88DC6D1DED4ED1008CC522 /* BlurEffecViewController.m */; };
+		7BA7E82C1DF11C4E00DF0365 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BA7E82E1DF11C4E00DF0365 /* Localizable.strings */; };
+		7BCC87F61DF1812D008BA784 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC87ED1DF1812D008BA784 /* SVIndefiniteAnimatedView.m */; };
+		7BCC87F71DF1812D008BA784 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC87EF1DF1812D008BA784 /* SVProgressAnimatedView.m */; };
+		7BCC87F81DF1812D008BA784 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BCC87F11DF1812D008BA784 /* SVProgressHUD.bundle */; };
+		7BCC87F91DF1812D008BA784 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC87F31DF1812D008BA784 /* SVProgressHUD.m */; };
+		7BCC87FA1DF1812D008BA784 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC87F51DF1812D008BA784 /* SVRadialGradientLayer.m */; };
+		7BD5A3C01DEFF9A100C24278 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD5A3BF1DEFF9A100C24278 /* QuartzCore.framework */; };
+		7BD5A3C21DEFF9B700C24278 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD5A3C11DEFF9B700C24278 /* CoreGraphics.framework */; };
+		7BD5A3C41DEFF9CB00C24278 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD5A3C31DEFF9CB00C24278 /* UIKit.framework */; };
+		7BD5A3C61DEFF9D400C24278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD5A3C51DEFF9D400C24278 /* Foundation.framework */; };
+		7BD5A3CE1DEFFD6000C24278 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5A3CD1DEFFD6000C24278 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +72,26 @@
 		7B88DC6A1DED48E4008CC522 /* add2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add2.png; sourceTree = "<group>"; };
 		7B88DC6C1DED4ED1008CC522 /* BlurEffecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurEffecViewController.h; sourceTree = "<group>"; };
 		7B88DC6D1DED4ED1008CC522 /* BlurEffecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurEffecViewController.m; sourceTree = "<group>"; };
+		7BA7E8281DF11C0400DF0365 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7BA7E8291DF11C0500DF0365 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7BA7E82D1DF11C4E00DF0365 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7BA7E82F1DF11C5800DF0365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BCC87EC1DF1812D008BA784 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		7BCC87ED1DF1812D008BA784 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		7BCC87EE1DF1812D008BA784 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		7BCC87EF1DF1812D008BA784 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		7BCC87F01DF1812D008BA784 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		7BCC87F11DF1812D008BA784 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		7BCC87F21DF1812D008BA784 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		7BCC87F31DF1812D008BA784 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		7BCC87F41DF1812D008BA784 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		7BCC87F51DF1812D008BA784 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		7BD5A3BF1DEFF9A100C24278 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7BD5A3C11DEFF9B700C24278 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BD5A3C31DEFF9CB00C24278 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BD5A3C51DEFF9D400C24278 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BD5A3CC1DEFFD6000C24278 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7BD5A3CD1DEFFD6000C24278 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +99,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD5A3C61DEFF9D400C24278 /* Foundation.framework in Frameworks */,
+				7BD5A3C41DEFF9CB00C24278 /* UIKit.framework in Frameworks */,
+				7BD5A3C21DEFF9B700C24278 /* CoreGraphics.framework in Frameworks */,
+				7BD5A3C01DEFF9A100C24278 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +130,7 @@
 				7B88DC501DED44D4008CC522 /* BlurEffectWithMenuTests */,
 				7B88DC5B1DED44D4008CC522 /* BlurEffectWithMenuUITests */,
 				7B88DC351DED44D4008CC522 /* Products */,
+				7BD5A3BE1DEFF9A000C24278 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +147,8 @@
 		7B88DC361DED44D4008CC522 /* BlurEffectWithMenu */ = {
 			isa = PBXGroup;
 			children = (
+				7BD5A3CB1DEFFD6000C24278 /* MBProgressHUD */,
+				7BCC87EB1DF1812D008BA784 /* SVProgressHUD */,
 				7B88DC3A1DED44D4008CC522 /* AppDelegate.h */,
 				7B88DC3B1DED44D4008CC522 /* AppDelegate.m */,
 				7B88DC3D1DED44D4008CC522 /* ViewController.h */,
@@ -134,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				7B88DC381DED44D4008CC522 /* main.m */,
+				7BA7E82E1DF11C4E00DF0365 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +193,43 @@
 				7B88DC5E1DED44D4008CC522 /* Info.plist */,
 			);
 			path = BlurEffectWithMenuUITests;
+			sourceTree = "<group>";
+		};
+		7BCC87EB1DF1812D008BA784 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC87EC1DF1812D008BA784 /* SVIndefiniteAnimatedView.h */,
+				7BCC87ED1DF1812D008BA784 /* SVIndefiniteAnimatedView.m */,
+				7BCC87EE1DF1812D008BA784 /* SVProgressAnimatedView.h */,
+				7BCC87EF1DF1812D008BA784 /* SVProgressAnimatedView.m */,
+				7BCC87F01DF1812D008BA784 /* SVProgressHUD-Prefix.pch */,
+				7BCC87F11DF1812D008BA784 /* SVProgressHUD.bundle */,
+				7BCC87F21DF1812D008BA784 /* SVProgressHUD.h */,
+				7BCC87F31DF1812D008BA784 /* SVProgressHUD.m */,
+				7BCC87F41DF1812D008BA784 /* SVRadialGradientLayer.h */,
+				7BCC87F51DF1812D008BA784 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		7BD5A3BE1DEFF9A000C24278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BD5A3C51DEFF9D400C24278 /* Foundation.framework */,
+				7BD5A3C31DEFF9CB00C24278 /* UIKit.framework */,
+				7BD5A3C11DEFF9B700C24278 /* CoreGraphics.framework */,
+				7BD5A3BF1DEFF9A100C24278 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BD5A3CB1DEFFD6000C24278 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7BD5A3CC1DEFFD6000C24278 /* MBProgressHUD.h */,
+				7BD5A3CD1DEFFD6000C24278 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +339,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCC87F81DF1812D008BA784 /* SVProgressHUD.bundle in Resources */,
 				7B88DC471DED44D4008CC522 /* LaunchScreen.storyboard in Resources */,
+				7BA7E82C1DF11C4E00DF0365 /* Localizable.strings in Resources */,
 				7B88DC441DED44D4008CC522 /* Assets.xcassets in Resources */,
 				7B88DC6B1DED48E4008CC522 /* add2.png in Resources */,
 				7B14AD3A1DED88D90038AC03 /* 毛玻璃菜单.gif in Resources */,
@@ -293,10 +371,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B88DC3F1DED44D4008CC522 /* ViewController.m in Sources */,
+				7BD5A3CE1DEFFD6000C24278 /* MBProgressHUD.m in Sources */,
 				7B88DC6E1DED4ED1008CC522 /* BlurEffecViewController.m in Sources */,
 				7B88DC3C1DED44D4008CC522 /* AppDelegate.m in Sources */,
 				7B14AD3D1DEE9ECF0038AC03 /* guideView.m in Sources */,
+				7BCC87F91DF1812D008BA784 /* SVProgressHUD.m in Sources */,
+				7BCC87F61DF1812D008BA784 /* SVIndefiniteAnimatedView.m in Sources */,
 				7B88DC391DED44D4008CC522 /* main.m in Sources */,
+				7BCC87F71DF1812D008BA784 /* SVProgressAnimatedView.m in Sources */,
+				7BCC87FA1DF1812D008BA784 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +419,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B88DC411DED44D4008CC522 /* Base */,
+				7BA7E8281DF11C0400DF0365 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -344,8 +428,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				7B88DC461DED44D4008CC522 /* Base */,
+				7BA7E8291DF11C0500DF0365 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BA7E82E1DF11C4E00DF0365 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA7E82D1DF11C4E00DF0365 /* zh-Hans */,
+				7BA7E82F1DF11C5800DF0365 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -355,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -402,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
